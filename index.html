@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>charity: water</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+	<!-- The header contains the logo and the main page links. -->
+	<header class="site-header">
+		<a href="#" class="logo-link" aria-label="charity: water home">
+			<img src="img/water-can-transparent.png" alt="">
+			<span>charity: water</span>
+		</a>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+		<nav class="navigation" aria-label="Main navigation">
+			<a href="#home" class="active-link">Home</a>
+			<a href="#about">About Us</a>
+			<a href="#login">Login</a>
+			<a href="#start" class="start-link">Start for free</a>
+		</nav>
+	</header>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+	<!-- The hero is split into a text panel and a meaningful image. -->
+	<main id="home" class="hero">
+		<section class="hero-copy" aria-labelledby="hero-title">
+			<h1 id="hero-title">It all starts with clean water.</h1>
+			<p>
+				charity: water brings clean water to people who need it. With our
+				100% model we make sure every penny donated goes directly to field
+				projects where as little as $10 provides an average of 1000 liters
+				of clean water. Since our mission started in 2006 with the help of
+				generous supporters like you, we have brought a fresh start to 21.6
+				million people.
+			</p>
+			<p class="closing-message">
+				Act today to be a part of new beginnings around the world.
+			</p>
+			<a href="#donate" class="donate-button">
+				<img src="img/water-can-transparent.png" alt="">
+				<span>Donate now</span>
+			</a>
+		</section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+		<div class="hero-image" role="img" aria-label="A hand filling a glass with clean water"></div>
+	</main>
 </body>
 </html>
